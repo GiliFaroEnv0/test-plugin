@@ -1,14 +1,6 @@
 name: OPA
 icon: https://cncf-branding.netlify.app/img/projects/opa/stacked/color/opa-stacked-color.png
 inputs:
-  path:
-    type: string
-    required: true
-  flags:
-    type: string
-  query:
-    type: string
-    required: true
 
 run:
   runtime: bash
